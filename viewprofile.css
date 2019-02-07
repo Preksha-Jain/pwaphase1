@@ -1,0 +1,94 @@
+/*desktop view*/
+body{
+	background: pink;
+}
+#parent{
+	background:aqua;
+	margin:2%;
+	display: flex;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: yellow;
+	margin:4%;
+	border-radius: 8%;
+	text-align: center;
+	box-shadow: 4px 4px 4px 4px;
+	width: 25%;
+	height: 55%;
+}
+.rightdiv{
+	background: orange;
+	border-radius: 5%;
+	margin:4%;
+	box-shadow: 4px 4px 4px 4px;
+	width:55%;
+	padding: 3%;
+	
+}
+img{
+	margin: 3%;
+	border-radius: 4%;
+}
+/*mobile view*/
+@media screen and (max-width:480px) {
+body{
+	background:lightgreen;
+}
+#parent{
+	background:pink;
+	margin:1%;
+	display: inline-block;
+	justify-content: space-around;
+}
+.leftdiv{
+	background: yellow;
+	margin:2%;
+	border-radius: 8%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 96%;
+	height: 40%;
+}
+.rightdiv{
+	background: orange;
+	border-radius: 5%;
+	margin:2%;
+	box-shadow: 2px 2px 2px 2px;
+	width:90%;
+	padding: 3%;
+	
+}
+}
+@media screen and (min-width:481px) and (max-width:1024px){
+body{
+	background:yellow;
+}
+#parent{
+	background:aqua;
+	margin:5%;
+	display: inline-block;
+	justify-content:space-around;
+}
+.leftdiv{
+	background: pink;
+	margin:4%;
+	border-radius: 8%;
+	text-align: center;
+	box-shadow: 2px 2px 2px 2px;
+	width: 92%;
+	height: 40%;
+}
+/*.leftdiv1{*/
+	/*display: flex;*/
+/*}*/
+.rightdiv{
+	background:pink;
+	border-radius: 5%;
+	margin:4%;
+	box-shadow: 2px 2px 2px 2px;
+	width:90%;
+	padding: 2%;
+	
+}	
+}

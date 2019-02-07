@@ -1,0 +1,44 @@
+{
+  "profile":{
+		"img":"profile1.png",
+		"name":"Preksha jain",
+		"roll":"17a31a1228",
+		"institute":"pragati college",
+		"place":"kkd"
+	},
+	"career":{
+		"info":"to get an challenging job where i can showcase my talent"
+	},
+	"education":[
+		{
+			"sno":"1",
+			"degree":"b.tech",
+			"institute":"prg",
+			"yop":"2022"
+		},
+		{
+			"sno":"2",
+			"degree":"intermediate",
+			"institute":"narayana college",
+			"yop":"2018"
+		},
+		{
+			"sno":"3",
+			"degree":"s.s.c",
+			"institute":"st.joseph convent school",
+			"yop":"2016"
+		}
+	],
+	"languages":[
+            {
+            	"lang":"english"
+            },
+            {
+            	"lang":"hindi"
+            },
+            {
+            	"lang":"telugu"
+            }
+
+	]
+}
